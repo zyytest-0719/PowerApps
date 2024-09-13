@@ -8,7 +8,13 @@ Screen1 As screen:
 
     Label1_1 As label:
         Text: ="11112222"
-        X: =152
-        Y: =348
+        X: =148
+        Y: =312
         ZIndex: =2
+
+    Label1_2 As label:
+        Text: ="3333"
+        X: =212
+        Y: =428
+        ZIndex: =3
 
