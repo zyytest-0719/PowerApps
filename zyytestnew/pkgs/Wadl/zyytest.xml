@@ -1,0 +1,40 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://usa002-004.azure-apihub.net/apim/zyytest-5ff6eb89cf26324b07-5f65ef52984b461008" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="zyytest" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="zyytest"></doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://usa002-004.azure-apihub.net/apim/zyytest-5ff6eb89cf26324b07-5f65ef52984b461008" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="zyytest_param_body_def_resource_def_event_def" />
+      <object name="zyytest_param_body_def_resource_def">
+        <property name="event" type="string" />
+      </object>
+      <object name="zyytest_param_body_def">
+        <property name="resource" typeRef="zyytest_param_body_def_resource_def" />
+      </object>
+      <untypedObject name="zyytest_responses_default_def" />
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://usa002-004.azure-apihub.net/apim/zyytest-5ff6eb89cf26324b07-5f65ef52984b461008">
+    <resource path="/{connectionId}/amf-qa/">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="POST" id="zyytest" actionName="zyytest" visibility="important" siena:isDeprecated="false">
+        <doc title="zyytest&#xA;zyytest" />
+        <request>
+          <param style="header" name="Content-Type" type="xs:string" default="application/json" />
+          <representation mediaType="application/json">
+            <param style="plain" name="resource" path="/resource" type="service:zyytest_param_body_def_resource_def" />
+          </representation>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:zyytest_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_zyytest-5ff6eb89cf26324b07-5f65ef52984b461008" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>
