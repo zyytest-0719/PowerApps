@@ -7,13 +7,13 @@ Screen1 As screen:
         ZIndex: =1
 
     Label1_1 As label:
-        Text: ="11112222"
+        Text: ="124124124"
         X: =148
         Y: =312
         ZIndex: =2
 
     Label1_2 As label:
-        Text: ="3333"
+        Text: ="131231231"
         X: =212
         Y: =428
         ZIndex: =3
