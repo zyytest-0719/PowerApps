@@ -257,14 +257,3 @@ Screen1 As screen:
         Y: =168
         ZIndex: =5
 
-    Label4_1 As label:
-        BorderColor: =App.Theme.Colors.Darker40
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =App.Theme.Font
-        Size: =13
-        Text: =App.Height+100222
-        X: =58
-        Y: =70
-        ZIndex: =6
-
