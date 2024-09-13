@@ -225,16 +225,6 @@ Screen1 As screen:
             X: =282
             ZIndex: =4
 
-    Label4 As label:
-        BorderColor: =App.Theme.Colors.Darker40
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =App.Theme.Font
-        Size: =13
-        Text: =App.Height+100222
-        X: =58
-        ZIndex: =4
-
     Button4 As button:
         BorderColor: =App.Theme.Colors.Primary
         DisabledBorderColor: =RGBA(244, 244, 244, 1)
