@@ -4,7 +4,7 @@
     "AppCheckerResult.sarif": "C8_099s7OdsaXLwf/igehv2HcKwmCzc2u7yHZbn9G4QiDw=",
     "Controls\\1.json": "C8_+9bWWWaDtzI/rA9xGR0GFD302+//iUIr6k2V6TsJM50=",
     "Controls\\4.json": "C8_tUlZ9L4CxN3errIz0iG1pM6RRIheTQkjbJrCkJkmOkQ=",
-    "Header.json": "C8_+u6cI/ELDEjYx/4OlEopqMHSfwcl8ppUL2QVRxIsCFo=",
+    "Header.json": "C8_0V+EeQ7zq6QORY0QP+BKzLg8zYuvx+pL9lFcrcgnwQU=",
     "Properties.json": "C8_Qkwobpx+WGJkiCdwMu4bdqBIvvN+kCs7AYsliYaIMgE=",
     "References\\DataSources.json": "C8_1Mz8z/quQND5c2f8m0mw1Mjdi+ggLSDhPUoMPaSWpDQ=",
     "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
@@ -13,13 +13,13 @@
     "References\\Themes.json": "C8_oCZZeuoC7+zyBGQLt9MZ2S+Xl34LpAsWKWXX0Qw0/YE=",
     "Resources\\PublishInfo.json": "C8_Ag1C5QY1dhXB2yDJWiICh0VEcyEYY1JHgFoWsRTFEGw="
   },
-  "ClientStampedChecksum": "C8_NTsaiHUVG4Jm0KPs2+NGNf/L8vJSffkqwimPEcXFlQU=",
+  "ClientStampedChecksum": "C8_lt1uQEUJxvqYFHfTL/qmk8DQmop4uaVJ6snzqvyCxN0=",
   "ServerPerFileChecksums": {
     ".gitignore": "C8_VaC8EcEG56Ufcy1DFyC8Ky19iV9xSsXMDIAcmF2GTj8=",
     "AppCheckerResult.sarif": "C8_099s7OdsaXLwf/igehv2HcKwmCzc2u7yHZbn9G4QiDw=",
     "Controls\\1.json": "C8_+9bWWWaDtzI/rA9xGR0GFD302+//iUIr6k2V6TsJM50=",
     "Controls\\4.json": "C8_tUlZ9L4CxN3errIz0iG1pM6RRIheTQkjbJrCkJkmOkQ=",
-    "Header.json": "C8_+u6cI/ELDEjYx/4OlEopqMHSfwcl8ppUL2QVRxIsCFo=",
+    "Header.json": "C8_0V+EeQ7zq6QORY0QP+BKzLg8zYuvx+pL9lFcrcgnwQU=",
     "Properties.json": "C8_Qkwobpx+WGJkiCdwMu4bdqBIvvN+kCs7AYsliYaIMgE=",
     "References\\DataSources.json": "C8_1Mz8z/quQND5c2f8m0mw1Mjdi+ggLSDhPUoMPaSWpDQ=",
     "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
@@ -28,5 +28,5 @@
     "References\\Themes.json": "C8_oCZZeuoC7+zyBGQLt9MZ2S+Xl34LpAsWKWXX0Qw0/YE=",
     "Resources\\PublishInfo.json": "C8_Ag1C5QY1dhXB2yDJWiICh0VEcyEYY1JHgFoWsRTFEGw="
   },
-  "ServerStampedChecksum": "C8_NTsaiHUVG4Jm0KPs2+NGNf/L8vJSffkqwimPEcXFlQU="
+  "ServerStampedChecksum": "C8_lt1uQEUJxvqYFHfTL/qmk8DQmop4uaVJ6snzqvyCxN0="
 }
