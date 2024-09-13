@@ -7,9 +7,21 @@
     "Controls\\27.json": "C8_rG1SVyB8iIxV9SISM0l61WR0dVXLWjXTvFT2F/Bwx5Y=",
     "Controls\\36.json": "C8_QER2uGN3fy3a8eM3HnWfuLuSf8AJiV2owfJ6FtR8eCU=",
     "Controls\\37.json": "C8_C9jLWl9E9KGwLHHh3bmFGUnPyuiNzY9TPXM8ftQH7Yk=",
+<<<<<<< HEAD
+<<<<<<< HEAD
     "Controls\\4.json": "C8_Y3GpxDPEtKzgmDNisDu9vnDfjuuAcyOUVHgwxuYB+PM=",
     "Controls\\95.json": "C8_+N8Ldce3G4CgUCzyh8ipo4pEC8gZRy5qFW+j++w0EwI=",
     "Header.json": "C8_lix5lZZ0iHBTYrjxccExt0dOcdFMiGMiBXoZAZ+za1o=",
+=======
+    "Controls\\4.json": "C8_0LdbGz81PrMOMkST58k1TqYkErpYRLVemzxSba2iLNM=",
+    "Controls\\95.json": "C8_xmgCKfDGzoLhdktxkscMQMiVfb5D3oM1XNCaAT+IV7A=",
+    "Header.json": "C8_XGIQTnsgtPuywBR1a1ApnZYVrTZTgziWg53aKnOTL5k=",
+>>>>>>> parent of 1e9d762 (Commit)
+=======
+    "Controls\\4.json": "C8_0LdbGz81PrMOMkST58k1TqYkErpYRLVemzxSba2iLNM=",
+    "Controls\\95.json": "C8_xmgCKfDGzoLhdktxkscMQMiVfb5D3oM1XNCaAT+IV7A=",
+    "Header.json": "C8_XGIQTnsgtPuywBR1a1ApnZYVrTZTgziWg53aKnOTL5k=",
+>>>>>>> parent of 1e9d762 (Commit)
     "Properties.json": "C8_/tEHaELx7N4j5omDsWsj0/T0u2LFnI7XnR00zK4fB3M=",
     "References\\DataSources.json": "C8_54jNNpvlfuKaHuLOrbGDZ7OaT/ctILyDUc7eTyPa/3c=",
     "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
@@ -18,7 +30,15 @@
     "References\\Themes.json": "C8_fekM606A917ll7hte3n6YkYOx7to0umlSjqcOex1id4=",
     "Resources\\PublishInfo.json": "C8_4TpTOlmlmzOzUPxfwOxLqhc/wo8MY+GyX4FMHCO1ke4="
   },
+<<<<<<< HEAD
+<<<<<<< HEAD
   "ClientStampedChecksum": "C8_Y83hLqup3eXeLAvYy0F9l949oMSpVcLtOehRnsR3Fro=",
+=======
+  "ClientStampedChecksum": "C8_mfPf7vJw8v2J4r+KOhAbIzMXCc1ItmB5HIm/7M9Gk6E=",
+>>>>>>> parent of 1e9d762 (Commit)
+=======
+  "ClientStampedChecksum": "C8_mfPf7vJw8v2J4r+KOhAbIzMXCc1ItmB5HIm/7M9Gk6E=",
+>>>>>>> parent of 1e9d762 (Commit)
   "ServerPerFileChecksums": {
     ".gitignore": "C8_VaC8EcEG56Ufcy1DFyC8Ky19iV9xSsXMDIAcmF2GTj8=",
     "AppCheckerResult.sarif": "C8_l210FFagjtfzuOo6e9iQcgbBwzSgbE+l9vVvoI//4Do=",
@@ -27,9 +47,21 @@
     "Controls\\27.json": "C8_rG1SVyB8iIxV9SISM0l61WR0dVXLWjXTvFT2F/Bwx5Y=",
     "Controls\\36.json": "C8_QER2uGN3fy3a8eM3HnWfuLuSf8AJiV2owfJ6FtR8eCU=",
     "Controls\\37.json": "C8_C9jLWl9E9KGwLHHh3bmFGUnPyuiNzY9TPXM8ftQH7Yk=",
+<<<<<<< HEAD
+<<<<<<< HEAD
     "Controls\\4.json": "C8_Y3GpxDPEtKzgmDNisDu9vnDfjuuAcyOUVHgwxuYB+PM=",
     "Controls\\95.json": "C8_+N8Ldce3G4CgUCzyh8ipo4pEC8gZRy5qFW+j++w0EwI=",
     "Header.json": "C8_lix5lZZ0iHBTYrjxccExt0dOcdFMiGMiBXoZAZ+za1o=",
+=======
+    "Controls\\4.json": "C8_0LdbGz81PrMOMkST58k1TqYkErpYRLVemzxSba2iLNM=",
+    "Controls\\95.json": "C8_xmgCKfDGzoLhdktxkscMQMiVfb5D3oM1XNCaAT+IV7A=",
+    "Header.json": "C8_XGIQTnsgtPuywBR1a1ApnZYVrTZTgziWg53aKnOTL5k=",
+>>>>>>> parent of 1e9d762 (Commit)
+=======
+    "Controls\\4.json": "C8_0LdbGz81PrMOMkST58k1TqYkErpYRLVemzxSba2iLNM=",
+    "Controls\\95.json": "C8_xmgCKfDGzoLhdktxkscMQMiVfb5D3oM1XNCaAT+IV7A=",
+    "Header.json": "C8_XGIQTnsgtPuywBR1a1ApnZYVrTZTgziWg53aKnOTL5k=",
+>>>>>>> parent of 1e9d762 (Commit)
     "Properties.json": "C8_/tEHaELx7N4j5omDsWsj0/T0u2LFnI7XnR00zK4fB3M=",
     "References\\DataSources.json": "C8_54jNNpvlfuKaHuLOrbGDZ7OaT/ctILyDUc7eTyPa/3c=",
     "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
@@ -38,5 +70,13 @@
     "References\\Themes.json": "C8_fekM606A917ll7hte3n6YkYOx7to0umlSjqcOex1id4=",
     "Resources\\PublishInfo.json": "C8_4TpTOlmlmzOzUPxfwOxLqhc/wo8MY+GyX4FMHCO1ke4="
   },
+<<<<<<< HEAD
+<<<<<<< HEAD
   "ServerStampedChecksum": "C8_Y83hLqup3eXeLAvYy0F9l949oMSpVcLtOehRnsR3Fro="
+=======
+  "ServerStampedChecksum": "C8_mfPf7vJw8v2J4r+KOhAbIzMXCc1ItmB5HIm/7M9Gk6E="
+>>>>>>> parent of 1e9d762 (Commit)
+=======
+  "ServerStampedChecksum": "C8_mfPf7vJw8v2J4r+KOhAbIzMXCc1ItmB5HIm/7M9Gk6E="
+>>>>>>> parent of 1e9d762 (Commit)
 }
