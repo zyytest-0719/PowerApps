@@ -59,7 +59,11 @@
       "Name": "Button1",
       "OptimizeForDevices": "Off",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ParentIndex": 2,
+=======
+      "ParentIndex": 4,
+>>>>>>> parent of 1e9d762 (Commit)
 =======
       "ParentIndex": 4,
 >>>>>>> parent of 1e9d762 (Commit)
@@ -308,7 +312,11 @@
       "Name": "Button4",
       "OptimizeForDevices": "Off",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ParentIndex": 1,
+=======
+      "ParentIndex": 3,
+>>>>>>> parent of 1e9d762 (Commit)
 =======
       "ParentIndex": 3,
 >>>>>>> parent of 1e9d762 (Commit)
@@ -1201,7 +1209,11 @@
       "Name": "Gallery3",
       "OptimizeForDevices": "Off",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ParentIndex": 3,
+=======
+      "ParentIndex": 5,
+>>>>>>> parent of 1e9d762 (Commit)
 =======
       "ParentIndex": 5,
 >>>>>>> parent of 1e9d762 (Commit)
@@ -3866,6 +3878,9 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
+<<<<<<< HEAD
+>>>>>>> parent of 1e9d762 (Commit)
+=======
 >>>>>>> parent of 1e9d762 (Commit)
     "Screen1": {
       "AllowAccessToGlobals": true,
