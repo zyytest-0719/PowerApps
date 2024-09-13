@@ -1,5 +1,6 @@
 Screen1 As screen:
 
+<<<<<<< HEAD
     Label1 As label:
         Text: ="Text"
         X: =216
@@ -12,3 +13,5 @@ Screen1 As screen:
         Y: =220
         ZIndex: =2
 
+=======
+>>>>>>> parent of c0006a1 (Commit)

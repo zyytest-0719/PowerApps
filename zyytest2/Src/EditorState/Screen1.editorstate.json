@@ -1,5 +1,6 @@
 {
   "ControlStates": {
+<<<<<<< HEAD
     "Label1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
@@ -519,6 +520,8 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
+=======
+>>>>>>> parent of c0006a1 (Commit)
     "Screen1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [

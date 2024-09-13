@@ -4,13 +4,20 @@
   "ControlUniqueIds": {
     "App": 1,
     "Host": 3,
+<<<<<<< HEAD
     "Label1": 5,
     "Label2": 6,
+=======
+>>>>>>> parent of c0006a1 (Commit)
     "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+<<<<<<< HEAD
   "HeaderLastSavedDateTimeUTC": "09/13/2024 05:30:39",
+=======
+  "HeaderLastSavedDateTimeUTC": "09/13/2024 05:29:39",
+>>>>>>> parent of c0006a1 (Commit)
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -22,14 +29,15 @@
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "label": 0
-  },
+  "OrderXMLTemplate": {},
   "OverridablePropertiesEntry": {
     "App": {},
     "Host": {},
+<<<<<<< HEAD
     "Label1": {},
     "Label2": {},
+=======
+>>>>>>> parent of c0006a1 (Commit)
     "Screen1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -37,8 +45,11 @@
   "PublishOrderIndices": {
     "App": 0,
     "Host": 0,
+<<<<<<< HEAD
     "Label1": 0,
     "Label2": 0,
+=======
+>>>>>>> parent of c0006a1 (Commit)
     "Screen1": 0
   },
   "ResourcesJsonIndices": {},
