@@ -1,0 +1,19 @@
+App As appinfo:
+    BackEnabled: =true
+    Formulas: =formValid = Or( ErrorMessage1.Visible , ErrorMessage2.Visible , ErrorMessage3.Visible,ErrorMessage4.Visible,ErrorMessage5.Visible,ErrorMessage6.Visible
+    OnStart: |-
+        =ClearCollect(zyytest ,  { parentID :"p01" ,  data: [{selfScore: 13 , sonid:"001"   },{selfScore: 23, sonid:"002"   },{selfScore: 23, sonid:"002"   },{selfScore: 23, sonid:"002"   },{selfScore: 23, sonid:"012"   },{selfScore: 23, sonid:"002"   },{selfScore:22, sonid:"002"   },{selfScore: 123 , sonid:"003"   },{selfScore: 123 , sonid:"003"   },{selfScore: 22 , sonid:"003"   },{selfScore: 22 , sonid:"003"   },{selfScore: 22 , sonid:"003"   },{selfScore: 22 , sonid:"003"   }
+        ] },
+        { parentID :"p02" ,  data: [{selfScore: Blank() , sonid:"004"   },{selfScore: Blank(), sonid:"005"   },{selfScore: Blank() , sonid:"006"   }] },
+        { parentID :"p03" ,  data: [{selfScore: 1 , sonid:"007"   },{selfScore: 2, sonid:"008"   },{selfScore: 3 , sonid:"009"   }] }  );
+        Set( flag3, false);
+        Set(fl3,false);
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

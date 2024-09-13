@@ -1,0 +1,13 @@
+"Screen5 As screen.'welcomeLayout_ver1.0'":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    TextCanvas2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =160
+        Text: =Parent.Height & " " & Parent.Width
+        Width: =688
+        X: =375
+        Y: =135
+        ZIndex: =1
+

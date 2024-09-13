@@ -1,0 +1,85 @@
+Screen2 As screen:
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    Gallery5 As gallery.galleryVertical:
+        BorderColor: =App.Theme.Colors.Darker40
+        DelayItemLoading: =true
+        Items: =zyytest
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+        Label5 As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.parentID
+            Y: =8
+            ZIndex: =1
+
+        Gallery6 As gallery.galleryVertical:
+            BorderColor: =App.Theme.Colors.Darker40
+            DelayItemLoading: =true
+            Height: =166
+            Items: =ThisItem.data
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =84
+            Width: =630
+            Y: =60
+            ZIndex: =2
+
+            TextInput4 As text:
+                BorderColor: =App.Theme.Colors.Darker40
+                BorderThickness: =2
+                Color: =RGBA(0, 0, 0, 1)
+                Default: =ThisItem.selfScore
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                FocusedBorderThickness: =4
+                Font: =App.Theme.Font
+                HoverBorderColor: =App.Theme.Colors.Darker40
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =App.Theme.Colors.Lighter70
+                OnChange: |-
+                    =ClearCollect(testdata1,RenameColumns( DropColumns( AddColumns( Gallery6.AllItems , TEST3,If(TextInput4.Text=Blank(),Blank(),  Value(TextInput4.Text) )      ) ,selfScore) ,TEST3 , selfScore)  );
+                    Patch(zyytest ,  Gallery5.Selected , {data: testdata1} )
+                OnSelect: =Select(Parent)
+                Size: =13
+                X: =68
+                Y: =24
+                ZIndex: =1
+
+        Label5_1 As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            Height: =52
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =CountRows( Filter( Gallery6.AllItems , selfScore = Blank()  ) )
+            Width: =225
+            X: =173
+            Y: =8
+            ZIndex: =3
+
+    Label6 As label:
+        BorderColor: =App.Theme.Colors.Darker40
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =App.Theme.Font
+        Size: =13
+        Text: =Gallery5.Selected.parentID
+        X: =887
+        Y: =158
+        ZIndex: =2
+
