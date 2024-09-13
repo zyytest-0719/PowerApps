@@ -7,8 +7,21 @@ Screen1 As screen:
         ZIndex: =1
 
     Label1_1 As label:
+<<<<<<< HEAD
         Text: ="222222"
         X: =340
         Y: =384
         ZIndex: =2
+=======
+        Text: ="11112222"
+        X: =148
+        Y: =312
+        ZIndex: =2
+
+    Label1_2 As label:
+        Text: ="3333"
+        X: =212
+        Y: =428
+        ZIndex: =3
+>>>>>>> parent of 28e14c2 (deleet)
 
